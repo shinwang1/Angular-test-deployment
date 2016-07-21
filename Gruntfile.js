@@ -434,7 +434,7 @@ module.exports = function (grunt) {
       },
       heroku: {
         options: {
-          remote: 'git@heroku.com:example-heroku-webapp-1988.git',
+          remote: 'git@heroku.com:https://git.heroku.com/glacial-bayou-81897.git',
           branch: 'master',
           tag: pkg.version
         }
