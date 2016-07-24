@@ -39,6 +39,11 @@ angular
         controller: 'specificOrgCtrl',
         controllerAs: 'org'
       })
+      .when('/users', {
+        templateUrl: 'views/users.html',
+        controller: 'UsersCtrl',
+        controllerAs: 'users'
+      })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',

@@ -41,6 +41,7 @@
             <ul class="nav navbar-nav">
               <li class="active"><a href="#/">Events</a></li>
               <li><a ng-href="#/organizations">Organizations</a></li>
+              <li><a ng-href="#/users">Profile</a></li>
               <li><a ng-href="#/about">About</a></li>
               <li><a ng-href="#/">Contact</a></li>
             </ul>
@@ -55,7 +56,15 @@
 
     <div class="footer">
       <div class="container">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+        <p><span class="glyphicon glyphicon-heart"></span> from the UpLift DBC Team</p>
+
+          <!-- Twitter Follow button -->
+          <a href="https://twitter.com/Squad_UpLift" class="twitter-follow-button" data-show-count="false" data-size="small">Follow @Squad_UpLift</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+          </script>
+          <br>
+          <!-- Facebook Like button -->
+          <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FUpLift-995968273856562%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId=796968720438862" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
       </div>
     </div>
 
@@ -95,6 +104,8 @@
         <script src="scripts/controllers/organizations.service.js"></script>
         <script src="scripts/controllers/specificOrg.js"></script>
         <script src="scripts/controllers/specificOrg.service.js"></script>
+        <script src="scripts/controllers/users.js"></script>
+        <script src="scripts/controllers/users.service.js"></script>
         <script src="scripts/controllers/about.js"></script>
         <!-- endbuild -->
 </body>
