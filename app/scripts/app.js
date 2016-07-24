@@ -29,6 +29,16 @@ angular
         controller: 'specificEventCtrl',
         controllerAs: 'event'
       })
+      .when('/organizations', {
+        templateUrl: 'views/organizations.html',
+        controller: 'OrganizationsCtrl',
+        controllerAs: 'organizations'
+      })
+      .when('/organizations/:id', {
+        templateUrl: 'views/specificOrg.html',
+        controller: 'specificOrgCtrl',
+        controllerAs: 'org'
+      })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',
