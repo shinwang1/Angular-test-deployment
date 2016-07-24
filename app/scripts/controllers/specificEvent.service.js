@@ -5,7 +5,7 @@ angular.module('angularTestDeploymentApp')
   
   var specificEvent = [];
   this.get = function(id) {
-    return $http.get('https://uplift-api.herokuapp.com/events/'+id+'/').success(function(data){
+    return $http.get('https://uplift-api.herokuapp.com/events/'+id).success(function(data){
       angular.copy(data, specificEvent);
     });
   };

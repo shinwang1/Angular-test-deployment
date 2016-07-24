@@ -5,7 +5,7 @@ angular.module('angularTestDeploymentApp')
 
   var events = [];
   this.getAll = function() {
-    return $http.get('https://blooming-cove-33951.herokuapp.com/events').success(function(data){
+    return $http.get('https://uplift-api.herokuapp.com/events').success(function(data){
         angular.copy(data, events);
     });
   };
